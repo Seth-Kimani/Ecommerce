@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<title>Ecommerce</title>
+</head>
+<body>
+	<section id="header">
+			<a href="#"><img src="./images/logo.png" alt="logo" class="logo"></a>
+			<div>
+				<ul id="navbar">
+					<li><a href="index.html">home</a></li>
+					<li><a href="shop.html" class="active">shop</a></li>
+					<li><a href="blog.html">blog</a></li>
+					<li><a href="about.html">about</a></li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="cart.html" id="lg-bag"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+					<a href="#"><i class="fa fa-times" id="close"></i></a>
+				</ul>
+			</div>
+			<div id="mobile">
+				<a href="cart.html"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+				<i class="fa-solid fa-outdent" id="bar"></i>
+			</div>
+	</section>
+
+    <section id="product-details" class="section-padding">
+        <div class="single-product-image">
+            <img src="images/products/f1.jpg" width="100%" id="mainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/products/f1.jpg"  width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/products/f2.jpg"  width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/products/f3.jpg"  width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/products/f4.jpg"  width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h5>Home / T-shirt</h5>
+            <h3>Men's Fashion T Shirt</h3>
+            <h2>$139.00</h2>
+            <select>
+                <option value="">select size</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">Small</option>
+                <option value="">Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h5>Product Detais</h5>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis voluptas nostrum blanditiis saepe aperiam ullam obcaecati, doloremque iste labore non, facilis eius facere! Perferendis sit culpa ea doloribus ad. Reiciendis.</span>
+        </div>
+    </section>
+    
+    <section id="products" class="section-padding">
+        <h2>Featured Products</h2>
+		<p>Summer collection new design</p> 
+		<div id="product-container">
+			<div class="product">
+				<img src="./images/products/f2.jpg" alt="p1">
+				<div class="description">
+					<span>adidas</span>
+					<h5>Carton Astrounat t-shirt</h5>
+					<div class="star">
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<h4>$78</h4>
+					<a href="#"><i class="fa fa-cart-plus fa-beat cart"></i></a>
+				</div>
+			</div>
+			<div class="product">
+				<img src="./images/products/f3.jpg" alt="p1">
+				<div class="description">
+					<span>adidas</span>
+					<h5>Carton Astrounat t-shirt</h5>
+					<div class="star">
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<h4>$78</h4>
+					<a href="#"><i class="fa fa-cart-plus fa-beat fa-beat cart"></i></a>
+				</div>
+			</div>
+			<div class="product">
+				<img src="./images/products/f4.jpg" alt="p1">
+				<div class="description">
+					<span>adidas</span>
+					<h5>Carton Astrounat t-shirt</h5>
+					<div class="star">
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<h4>$78</h4>
+					<a href="#"><i class="fa fa-cart-plus fa-beat cart"></i></a>
+				</div>
+			</div>
+			<div class="product">
+				<img src="./images/products/f5.jpg" alt="p1">
+				<div class="description">
+					<span>adidas</span>
+					<h5>Carton Astrounat t-shirt</h5>
+					<div class="star">
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star  "></i>
+					</div>
+					<h4>$78</h4>
+					<a href="#"><i class="fa fa-cart-plus fa-beat cart"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section id="pagination" class="section-padding">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+    </section>
+    
+	<section id="newsletter" class="section-margin">
+		<div>
+			<h2>Sign Up for newsletters</h2>
+			<p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+		</div>
+		<div class="form">
+			<input type="text" placeholder="your email address">
+			<button type="submit" class="normal">SignUp</button>
+		</div>
+	</section>
+
+	<footer id="footer" class="section-padding">
+		<div class="col">
+			<img src="./images/logo.png" alt="logo" class="logo">
+			<h5>Contact</h5>
+			<p><strong>Address: </strong>553 Wellington Road street 32. San Francisco</p>
+			<p><strong>Phone: </strong>+25123456789/+25132456789</p>
+			<p><strong>Hours: </strong>2:00-4:00, Mon-Sat</p>		
+			<div class="follow">
+				<h5>Follow Us</h5>
+				<div class="icon">
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-youtube"></i>
+					<i class="fa-brands fa-telegram"></i>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<h5>About</h5>
+			<a href="#">About us</a>
+			<a href="#">Delivery Information</a>
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms & Conditions</a>
+			<a href="#">Contact Us</a>
+		</div>
+		<div class="col">
+			<h5>My Account</h5>
+			<a href="#">Sign in</a >
+			<a href="#">View Cart</a >
+			<a href="#">My Wishlist</a >
+			<a href="#">Track My order</a >
+			<a href="#">Help</a >
+		</div>
+		<div class="col">
+			<h5>Install App</h5>
+			<p>From Appstore or GooglePlay</p>
+			<div class="app">
+				<img src="./images/pay/app.jpg" alt="">
+				<img src="./images/pay/play.jpg" alt="">
+			</div>
+			<p>Secured Payment Gateways</p>
+			<img src="./images/pay/pay.png" alt="">
+		</div>
+		<div class="copyright">
+			<p>	&copy; 2023 Ecommerce</p>
+		</div>
+		
+	</footer>
+
+    <script>
+        let mainImg = document.getElementById('mainImg');
+        let smallImages = document.querySelectorAll('.small-img');
+
+        smallImages.forEach((img) => {
+            img.addEventListener("click", (e) => {
+                mainImg.src = e.currentTarget.src;
+            });
+        });
+    </script>
+
+	<script src="script.js"></script>
+</body>
+</html>
